@@ -1,13 +1,8 @@
 [
   {
-    "listing": "/about.html",
-    "items": [
-      "/about/Max.html",
-      "/about/ProfRolfe.html"
-    ]
-  },
-  {
     "listing": "/index.html",
-    "items": []
+    "items": [
+      "/posts/Post_Template.html"
+    ]
   }
 ]
