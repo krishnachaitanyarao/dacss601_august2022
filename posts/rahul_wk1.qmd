@@ -29,4 +29,11 @@ Indian_Startup_Funding <- read_csv("C:/Users/gunde/Downloads/Indian_Startup_Fund
 ```{r}
 plot(Indian_Startup_Funding$AmountUSD)
 ```
+```{r}
+```
+
+
+```{r}
+data1 <- Indian_Startup_Funding$StartupName
+```
 
