@@ -4,13 +4,17 @@
     "items": [
       "/about/krishnarao.html",
       "/about/Max.html",
-      "/about/ProfRolfe.html"
+      "/about/ProfRolfe.html",
+      "/about/rahul.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/AbhinavKumar_hw1.html",
+      "/posts/AbhinavKumar_hw2.html",
       "/posts/KrishnaPost.html",
+      "/posts/rahul_wk1.html",
       "/posts/Post_Template.html"
     ]
   }
