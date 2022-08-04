@@ -1,0 +1,52 @@
+---
+title: "Blog Post Krishna"
+author: "Krishna Chaitanya Rao"
+desription: "Something to describe what I did"
+date: "08/04/2022"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
+categories:
+  - hw1
+  - weekly challenge
+  - my name
+  - dataset
+  - ggplot2
+---
+
+```{r setup, echo=FALSE}
+library(tidyverse)
+
+```
+
+## Instructions
+
+This document provides yaml header inforamtion you will need to replicate each week to submit your homework or other blog posts. Please observe the following conventions:
+
+-   Save your own copy of this template as a blog post in the `posts` folder, naming it `FirstLast_hwX.qmd`
+-   Edit the yaml header to change your author name - use the same name each week
+-   include a *description* that is reader friendly
+-   update the *category* list to indicate the type of submission, the data used, the main packages or techniques, your name, or any thing else to make your document easy to find
+-   edit as a normal qmd/rmd file
+
+
+```{r}
+x <- c(2,3,4,5)
+mean(x)
+```
+
+## Rendering your post
+
+```{r}
+library(readr)
+animal_weight <- read_csv("/Users/krishnachaitanyarao/Desktop/dacss601_august2022//_data/animal_weight.csv")
+View(animal_weight)
+
+```
+```{r}
+plot(animal_weight$Buffaloes)
+```
+
