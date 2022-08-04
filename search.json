@@ -95,7 +95,28 @@
     "href": "index.html",
     "title": "DACSS 601 August 2022",
     "section": "",
-    "text": "Blog Post Template\n\n\n\n\n\n\n\nhw1\n\n\nweekly challenge\n\n\nmy name\n\n\ndataset\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 22, 2021\n\n\nYour Name\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog Post Krishna\n\n\n\n\n\n\n\nhw1\n\n\nweekly challenge\n\n\nmy name\n\n\ndataset\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nAug 4, 2022\n\n\nKrishna Chaitanya Rao\n\n\n\n\n\n\n\n\nBlog Post Template\n\n\n\n\n\n\n\nhw1\n\n\nweekly challenge\n\n\nmy name\n\n\ndataset\n\n\nggplot2\n\n\n\n\n\n\n\n\n\n\n\nMay 22, 2021\n\n\nYour Name\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/KrishnaPost.html",
+    "href": "posts/KrishnaPost.html",
+    "title": "Blog Post Krishna",
+    "section": "",
+    "text": "Warning: replacing previous import 'lifecycle::last_warnings' by\n'rlang::last_warnings' when loading 'tibble'\n\n\nWarning: replacing previous import 'lifecycle::last_warnings' by\n'rlang::last_warnings' when loading 'pillar'\n\n\nWarning: replacing previous import 'lifecycle::last_warnings' by\n'rlang::last_warnings' when loading 'hms'\n\n\n── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──\n\n\n✓ ggplot2 3.3.3     ✓ purrr   0.3.4\n✓ tibble  3.1.0     ✓ dplyr   1.0.5\n✓ tidyr   1.1.3     ✓ stringr 1.4.0\n✓ readr   1.4.0     ✓ forcats 0.5.1\n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()"
+  },
+  {
+    "objectID": "posts/KrishnaPost.html#instructions",
+    "href": "posts/KrishnaPost.html#instructions",
+    "title": "Blog Post Krishna",
+    "section": "Instructions",
+    "text": "Instructions\nThis document provides yaml header inforamtion you will need to replicate each week to submit your homework or other blog posts. Please observe the following conventions:\n\nSave your own copy of this template as a blog post in the posts folder, naming it FirstLast_hwX.qmd\nEdit the yaml header to change your author name - use the same name each week\ninclude a description that is reader friendly\nupdate the category list to indicate the type of submission, the data used, the main packages or techniques, your name, or any thing else to make your document easy to find\nedit as a normal qmd/rmd file\n\n\n\nCode\nx <- c(2,3,4,5)\nmean(x)\n\n\n[1] 3.5"
+  },
+  {
+    "objectID": "posts/KrishnaPost.html#rendering-your-post",
+    "href": "posts/KrishnaPost.html#rendering-your-post",
+    "title": "Blog Post Krishna",
+    "section": "Rendering your post",
+    "text": "Rendering your post\n\n\nCode\nlibrary(readr)\nanimal_weight <- read_csv(\"/Users/krishnachaitanyarao/Desktop/dacss601_august2022//_data/animal_weight.csv\")\n\n\n\n── Column specification ────────────────────────────────────────────────────────\ncols(\n  `IPCC Area` = col_character(),\n  `Cattle - dairy` = col_double(),\n  `Cattle - non-dairy` = col_double(),\n  Buffaloes = col_double(),\n  `Swine - market` = col_double(),\n  `Swine - breeding` = col_double(),\n  `Chicken - Broilers` = col_double(),\n  `Chicken - Layers` = col_double(),\n  Ducks = col_double(),\n  Turkeys = col_double(),\n  Sheep = col_double(),\n  Goats = col_double(),\n  Horses = col_double(),\n  Asses = col_double(),\n  Mules = col_double(),\n  Camels = col_double(),\n  Llamas = col_double()\n)\n\n\nCode\nView(animal_weight)\n\n\n\n\nCode\nplot(animal_weight$Buffaloes)"
   },
   {
     "objectID": "posts/Post_Template.html",
