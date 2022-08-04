@@ -1,5 +1,5 @@
 ---
-title: "Arbit"
+title: "Ignorance"
 author: "Abhinav Kumar"
 desription: "Something to describe what I did"
 date: "08/04/2022"
@@ -13,7 +13,7 @@ categories:
   - hw1
   - weekly challenge
   - my name
-  - dataset
+  - comtrade
   - ggplot2
 ---
 
@@ -34,11 +34,12 @@ This document provides yaml header inforamtion you will need to replicate each w
 
 
 ```{r}
-
-
-
+library(readr)
+comtrade <- read_csv("C:/Users/Abhinav Kumar/Downloads/comtrade.csv")
+View(comtrade)
 
 ```
+
 
 ```{r}
 x <- c(2,3,4,5)
