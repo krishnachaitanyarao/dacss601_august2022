@@ -1,7 +1,7 @@
 ---
-title: "International Trade Linkages"
+title: "Arbit"
 author: "Abhinav Kumar"
-desription: "Analysing Trade of Copper"
+desription: "Something to describe what I did"
 date: "08/04/2022"
 format:
   html:
@@ -13,7 +13,7 @@ categories:
   - hw1
   - weekly challenge
   - my name
-  - Comtrade
+  - dataset
   - ggplot2
 ---
 
@@ -32,12 +32,13 @@ This document provides yaml header inforamtion you will need to replicate each w
 -   update the *category* list to indicate the type of submission, the data used, the main packages or techniques, your name, or any thing else to make your document easy to find
 -   edit as a normal qmd/rmd file
 
-```{r}
-library(readr)
-comtrade <- read_csv("C:/Users/Abhinav Kumar/Downloads/comtrade.csv")
-View(comtrade)
-```
 
+```{r}
+
+
+
+
+```
 
 ```{r}
 x <- c(2,3,4,5)
