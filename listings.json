@@ -1,21 +1,16 @@
 [
   {
-    "listing": "/about.html",
+    "listing": "/index.html",
     "items": [
-      "/about/krishnarao.html",
-      "/about/Max.html",
-      "/about/ProfRolfe.html",
-      "/about/rahul.html"
+      "/posts/krishna.html",
+      "/posts/Post_Template.html"
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/about.html",
     "items": [
-      "/posts/AbhinavKumar_hw1.html",
-      "/posts/AbhinavKumar_hw2.html",
-      "/posts/KrishnaPost.html",
-      "/posts/rahul_wk1.html",
-      "/posts/Post_Template.html"
+      "/about/Max.html",
+      "/about/ProfRolfe.html"
     ]
   }
 ]
